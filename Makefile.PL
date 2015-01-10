@@ -1,13 +1,14 @@
-#!perl
 use v5.14;
 use utf8;
 
+package Backup::Wordpresses;
 use strict;
 use warnings;
 
 use File::Spec::Functions qw(catfile);
 
-my $module    = 'Backup::Wordpresses';
+
+my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
 my $github    = 'https://github.com/briandfoy/backup-wordpresses';

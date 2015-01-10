@@ -8,6 +8,8 @@ use warnings;
 use File::Spec::Functions qw(catfile);
 
 my $module    = 'Backup::Wordpresses';
+( my $dist = $module ) =~ s/::/-/g;
+
 my $github    = 'https://github.com/briandfoy/backup-wordpresses';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 

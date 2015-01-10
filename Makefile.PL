@@ -50,7 +50,7 @@ my %WriteMakefile = (
 			},
 		},
 
-	clean  => { FILES => q|-*| },
+	clean => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }

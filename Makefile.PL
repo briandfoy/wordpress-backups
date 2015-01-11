@@ -7,7 +7,6 @@ use warnings;
 
 use File::Spec::Functions qw(catfile);
 
-
 my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
@@ -15,6 +14,8 @@ my $github    = 'https://github.com/briandfoy/backup-wordpresses';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
 my %WriteMakefile = (
+	'MIN_PERL_VERSION' => '5.014',
+
 	'NAME'	        => $module,
 	'ABSTRACT_FROM' => $main_file,
 	'VERSION_FROM'  => $main_file,

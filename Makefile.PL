@@ -1,4 +1,4 @@
-package Backup::Wordpresses;
+package Wordpress::Backups;
 use strict;
 use warnings;
 
@@ -7,7 +7,7 @@ use File::Spec::Functions qw(catfile);
 my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
-my $github    = 'https://github.com/briandfoy/backup-wordpresses';
+my $github    = 'https://github.com/briandfoy/wordpress-backups';
 my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
 my %WriteMakefile = (

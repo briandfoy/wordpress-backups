@@ -4,6 +4,41 @@ use warnings;
 
 use File::Spec::Functions;
 
+
+=encoding utf8
+
+=head1 NAME
+
+WordPress::Backups - 
+
+=head1 SYNOPSIS
+
+
+=head1 TO DO
+
+
+=head1 SEE ALSO
+
+
+=head1 SOURCE AVAILABILITY
+
+This source is in Github
+
+	git://github.com/briandfoy/file-fingerprint.git
+
+=head1 AUTHOR
+
+brian d foy, C<< <bdfoy@cpan.org> >>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright © 2014-2015, brian d foy <bdfoy@cpan.org>. All rights reserved.
+
+You may redistribute this under the same terms as Perl itself.
+
+=cut
+
+
 @ARGV = glob( '*/wp-config.php */public_html/wp-config.php' );
 
 my $dir = "/home/mango/backups";

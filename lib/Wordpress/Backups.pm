@@ -1,4 +1,5 @@
-#!/usr/bin/perl
+package WordPress::Backups;
+
 use strict;
 use warnings;
 
@@ -9,7 +10,7 @@ use File::Spec::Functions;
 
 =head1 NAME
 
-WordPress::Backups - 
+WordPress::Backups - Backup a bunch of WordPress installations
 
 =head1 SYNOPSIS
 

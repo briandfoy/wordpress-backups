@@ -2,35 +2,35 @@
 
 =encoding utf8
 
-=head1 The Backup::Wordpresses module
+=head1 The WordPress::Backups module
 
-This is the I<README> for the L<Wordpress::Backups> Perl module. You're probably 
+This is the I<README> for the L<WordPress::Backups> Perl module. You're probably 
 looking at this because you don't know where else to find what you're
 looking for. Read this once and you might never have to read one again 
 for any Perl module.
 
 =head2 Documentation
 
-To read about L<Wordpress::Backups>, look at the embedded documentation 
+To read about L<WordPress::Backups>, look at the embedded documentation 
 in the module itself. Inside the distribution, you can format it 
 with L<perldoc|http://perldoc.perl.org/perldoc.html>:
 
-	% perldoc lib/Wordpress/Backups.pm
+	% perldoc lib/WordPress/Backups.pm
 
 If you have already installed the module, you can specify the module
 name instead of the file location:
 
-	% perldoc Wordpress::Backups
+	% perldoc WordPress::Backups
 
 You can read the documentation and inspect the meta data on one of the 
-CPAN web interfaces, such as L<CPAN Search|http://search.cpan.org/dist/Wordpress-Backups> or 
-L<MetaCPAN|http://www.metacpan.org/module/Wordpress::Backups>:
+CPAN web interfaces, such as L<CPAN Search|http://search.cpan.org/dist/WordPress-Backups> or 
+L<MetaCPAN|http://www.metacpan.org/module/WordPress::Backups>:
 
 =over 4
 
-=item *	L<http://search.cpan.org/dist/Wordpress-Backups>
+=item *	L<http://search.cpan.org/dist/WordPress-Backups>
 
-=item *	L<http://www.metacpan.org/module/Wordpress::Backups>
+=item *	L<http://www.metacpan.org/module/WordPress::Backups>
 
 =back
 
@@ -43,8 +43,8 @@ there), or look at the test files in I<t/>.
 You can install this module with a CPAN client, which will resolve
 and install the dependencies:
 
-	% cpan Backup::Wordpresses
-	% cpanm Backup::Wordpresses
+	% cpan WordPress::Backups
+	% cpanm WordPress::Backups
 
 You can also install directly from the distribution directory, which
 will also install the dependencies:
@@ -71,16 +71,16 @@ the source repository:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/wordpress-backups>
+=item *	L<https://github.com/briandfoy/WordPress-backups>
 
 =back
 
 If you find a problem, file a ticket in the L<issue 
-tracker|https://github.com/briandfoy/wordpress-backups/issues>:
+tracker|https://github.com/briandfoy/WordPress-backups/issues>:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/wordpress-backups/issues>
+=item *	L<https://github.com/briandfoy/WordPress-backups/issues>
 
 =back
 

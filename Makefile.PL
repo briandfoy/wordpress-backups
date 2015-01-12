@@ -1,4 +1,4 @@
-package Wordpress::Backups;
+package WordPress::Backups;
 use strict;
 use warnings;
 

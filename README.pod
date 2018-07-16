@@ -32,17 +32,8 @@ name instead of the file location:
 
 	% perldoc WordPress::Backups
 
-You can read the documentation and inspect the meta data on one of the 
-CPAN web interfaces, such as L<CPAN Search|http://search.cpan.org/dist/WordPress-Backups> or 
-L<MetaCPAN|http://www.metacpan.org/module/WordPress::Backups>:
-
-=over 4
-
-=item *	L<http://search.cpan.org/dist/WordPress-Backups>
-
-=item *	L<http://www.metacpan.org/module/WordPress::Backups>
-
-=back
+You can read the documentation and inspect the meta data on MetaCPAN
+L<MetaCPAN|http://www.metacpan.org/module/WordPress::Backups>.
 
 The standard module documentation has example uses in the SYNOPSIS
 section, but you can also look in the I<examples/> directory (if it's

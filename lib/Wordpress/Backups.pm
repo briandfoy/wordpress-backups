@@ -49,6 +49,8 @@ You may redistribute this under the terms of the Artistic License 2.0.
 
 =cut
 
+our $VERSION = '0.001';
+
 unless( caller ) {
 	unless( @ARGV ) {
 		@ARGV = glob( '*/wp-config.php */public_html/wp-config.php' );

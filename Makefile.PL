@@ -65,6 +65,7 @@ my %WriteMakefile = (
 		},
 
 	'PREREQ_PM'     => {
+		'File::Spec::Functions' => '0',
 		},
 
 	'META_MERGE' => {

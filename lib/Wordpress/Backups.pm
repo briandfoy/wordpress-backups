@@ -5,7 +5,6 @@ use warnings;
 
 use File::Spec::Functions;
 
-
 =encoding utf8
 
 =head1 NAME
@@ -14,18 +13,29 @@ WordPress::Backups - Backup a bunch of WordPress installations
 
 =head1 SYNOPSIS
 
+	use Wordpress::Backups;
+
+	Wordpress::Backups::run( $backup_dir, @wp_configs );
+
+=head1 DESCRIPTION
+
+This is a modulino that I use to backup my Wordpress installations. I
+give it a directory name and a list of wp_configs. It dumps the database
+for each, gzips the results, and stores it in the backup directory.
+
+It also removes backups older than a week.
 
 =head1 TO DO
 
-
-=head1 SEE ALSO
+Everything. I'm only playing with this when I need it to do something
+different.
 
 
 =head1 SOURCE AVAILABILITY
 
 This source is in Github
 
-	git://github.com/briandfoy/file-fingerprint.git
+	https://github.com/briandfoy/wordpress-grep
 
 =head1 AUTHOR
 

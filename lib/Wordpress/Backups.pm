@@ -1,6 +1,6 @@
 package WordPress::Backups;
+use v5.14; # maybe I needed this in the past?
 
-use strict;
 use warnings;
 
 use File::Spec::Functions;

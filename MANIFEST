@@ -1,6 +1,6 @@
 Changes
 INSTALL.SKIP
-lib/Wordpress/Backups.pm
+lib/WordPress/Backups.pm
 LICENSE
 Makefile.PL
 MANIFEST			This list of files
